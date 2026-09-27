@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded squircles -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  
+  <!-- Outer subtle ring -->
+  <circle cx="256" cy="256" r="190" stroke="rgba(255,255,255,0.08)" stroke-width="4" fill="none" />
+  
+  <!-- Teacher's Graduation Cap & Book symbol -->
+  <!-- Mortarboard top -->
+  <polygon points="256,120 400,185 256,250 112,185" fill="url(#accentGrad)" />
+  
+  <!-- Cap skull portion -->
+  <path d="M168,210 L168,270 C168,310 344,310 344,270 L344,210 L256,250 Z" fill="#4338ca" opacity="0.9" />
+  
+  <!-- Tassel ribbon & Star -->
+  <path d="M370,198 C370,225 385,250 392,280" stroke="#fde047" stroke-width="6" stroke-linecap="round" fill="none" />
+  <circle cx="392" cy="285" r="9" fill="#fde047" />
+  
+  <!-- Open Book underneath -->
+  <path d="M120,340 C180,310 240,335 256,346 C272,335 332,310 392,340 L392,410 C332,380 272,405 256,416 C240,405 180,380 120,410 Z" fill="#ffffff" />
+  <!-- Book spine line -->
+  <line x1="256" y1="346" x2="256" y2="416" stroke="#c7d2fe" stroke-width="4" />
+  <!-- Book page accent stripes -->
+  <path d="M150,358 C185,340 225,355 240,364" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M150,378 C185,360 225,375 240,384" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M362,358 C327,340 287,355 272,364" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none" />
+  <path d="M362,378 C327,360 287,375 272,384" stroke="#818cf8" stroke-width="3" stroke-linecap="round" fill="none" />
+  
+  <!-- Golden Award Star above -->
+  <polygon points="256,70 263,88 282,88 267,100 273,118 256,106 239,118 245,100 230,88 249,88" fill="url(#goldGrad)" />
+</svg>

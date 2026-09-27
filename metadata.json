@@ -1,0 +1,6 @@
+{
+  "name": "GuruKelas - Asisten Personal Guru Multi-Kelas",
+  "description": "Aplikasi manajemen kelas, materi, bank soal, penilaian, nilai, apresiasi bintang, dan turnamen kuis personal untuk guru Geografi SMA multi-kelas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
